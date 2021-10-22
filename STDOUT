@@ -1,0 +1,4 @@
+
+@nav
+Scenario: Navigating to echo Website                           [90m# src/test/java/FeatrureFiles/FF01_NavigateToHNwebsite.feature:10[0m
+  [32mGiven [0m[32mOpen the Browser and enter echourl and press enter key[0m [90m# StepDefinations.SD02_NavigateToEchoWebsite.open_the_browser_and_enter_echourl_and_press_enter_key()[0m

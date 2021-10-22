@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.531">
+<testcase classname="Website Navigation (user story)" name="Navigating to echo Website" time="6.392">
+<system-out><![CDATA[Given Open the Browser and enter echourl and press enter key................passed
+]]></system-out>
+</testcase>
+</testsuite>

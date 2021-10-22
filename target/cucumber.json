@@ -1,0 +1,41 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-16T23:09:30.851Z",
+        "line": 10,
+        "name": "Navigating to echo Website",
+        "description": "",
+        "id": "website-navigation-(user-story);navigating-to-echo-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6329000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open the Browser and enter echourl and press enter key",
+            "match": {
+              "location": "StepDefinations.SD02_NavigateToEchoWebsite.open_the_browser_and_enter_echourl_and_press_enter_key()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nav"
+          }
+        ]
+      }
+    ],
+    "name": "Website Navigation (user story)",
+    "description": "",
+    "id": "website-navigation-(user-story)",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatrureFiles/FF01_NavigateToHNwebsite.feature",
+    "tags": []
+  }
+]
