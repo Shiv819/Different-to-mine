@@ -29,8 +29,8 @@ public class AT12_ExcelUsage {
         //implicit wait
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //location of excel file
-      //  Xls_Reader reader = new Xls_Reader("D:\\SeleniumMaterial-StudentsDistribution\\06_DataDrivenTesting\\05_SeleniumParameterization\\TestDataHN1.xlsx");
-        Xls_Reader reader = new Xls_Reader(ReadPropertiesFile.PropFile("ExcelData"));
+        Xls_Reader reader = new Xls_Reader("D:\\SeleniumMaterial-StudentsDistribution\\06_DataDrivenTesting\\05_SeleniumParameterization\\TestDataHN1.xlsx");
+        Xls_Reader xls_reader = new Xls_Reader(ReadPropertiesFile.PropFile("ExcelData"));
         int rowcount =reader.getRowCount("RegTestData");
         for(int j=2;j<=rowcount;j++){
 
@@ -59,6 +59,6 @@ public class AT12_ExcelUsage {
         }
 
 
-  //
+
     }
 }

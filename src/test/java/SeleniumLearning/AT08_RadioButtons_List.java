@@ -32,7 +32,7 @@ public class AT08_RadioButtons_List {
        List<WebElement> RadioList=driver.findElements(By.xpath("//input[@type='radio' and @name='radio1']"));
         int radioSiz=RadioList.size();
         System.out.println("radioSiz "+radioSiz);
-        for (int i=0;i<radioSiz;i++){
+        for (int i=1;i<radioSiz;i++){
             String AttVal=RadioList.get(i).getAttribute("type");
             System.out.println("AttVal "+AttVal);
             if(AttVal.equalsIgnoreCase("radio")){

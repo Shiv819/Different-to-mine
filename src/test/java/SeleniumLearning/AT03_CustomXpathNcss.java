@@ -28,14 +28,15 @@ public class AT03_CustomXpathNcss {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //Custom xpath
         //1st method
-    //    driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("test");
-    //driver.findElement(By.xpath("//input[@autocomplete='off']")).sendKeys("king");
+       // driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("test");
+    //   driver.findElement(By.xpath("//input[@autocomplete='off']")).sendKeys("king");
 //2nd method
 
-     //   driver.findElement(By.xpath("//a[contains(@title,'Harvey Norman - Scam Alert')]")).click();
+       //driver.findElement(By.xpath("//a[contains(@title,'Harvey Norman - Scam Alert')]")).click();
 
+        //driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[2]/div[1]/div/div/ul/li[7]/ul/li[3]/ul[1]/li[1]/ul/li[2]/a")).click();
 
-
+        //driver.findElement(By.xpath("#wrapper > div.main-nav-wrapper > div.container > div > div > ul > li:nth-child(8) > ul > li.nav-hover > ul:nth-child(1) > li:nth-child(1) > ul > li:nth-child(2) > a")).click();
     }
     //3rd method
     //a[starts-with(@title,'Harvey Norman B')]

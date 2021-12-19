@@ -25,6 +25,7 @@ public class AT04_closeQuit {
         driver.get("https://www.harveynorman.com.au");
         //implicit wait
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
         //driver.close();
         driver.quit();
     }
